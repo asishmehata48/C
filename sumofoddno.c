@@ -3,7 +3,7 @@
 int main() {
     int start, end, sum = 0;
 
-    // Input the range
+    
     printf("Enter the start of the range: ");
     scanf("%d", &start);
     printf("Enter the end of the range: ");
