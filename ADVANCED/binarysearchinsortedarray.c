@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int binarySearch(int array[], int size, int key) {
     int low = 0, high = size - 1, mid;
