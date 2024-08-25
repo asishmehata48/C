@@ -1,53 +1,65 @@
-# Prerequisites
-*.d
-
-
-# Object files
+# Ignore object files and binaries
 *.o
-*.ko
 *.obj
-*.elf
-
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
 *.exe
 *.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+*.a
+*.so
+*.dylib
+*.dll
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
+# Ignore build directories
+/build/
+/bin/
+/lib/
+/dist/
+/Debug/
+/Release/
+
+# Ignore generated files
+*.lo
+*.la
+
+# Ignore temporary files
+*.log
+*.tmp
+*.temp
+*.swp
+*~
+
+# Ignore CMake build files
+CMakeFiles/
+/CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Ignore Visual Studio Code files
+.vscode/
+*.code-workspace
+
+# Ignore Visual Studio files
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
 *.pdb
+*.ipch
+*.obj
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# Ignore Xcode files
+*.xcodeproj/
+*.xcworkspace/
+*.xcuserdata/
+
+# Ignore Qt Creator files
+*.pro.user
+*.qmake.stash
+
+# Ignore CLion files
+.idea/
+cmake-build-debug/
+
+# Ignore other IDEs and editors
+*.user
+*.suo
+*.DS_Store
