@@ -1,5 +1,5 @@
-# C
-It Contains :
-Basics of C
-Advanced Codes
-My Projects using C
+## C ##
+
+1. Basics
+2. Projects
+3. Advanced
