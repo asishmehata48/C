@@ -13,11 +13,9 @@ int main() {
      
     printf("Enter the time period: "); 
     scanf("%f", &t); 
-     
-   
+    
     interest = (p * r * t) / 100; 
      
-   
     printf("Simple Interest: %.2f\n", interest); 
  
     return 0; 
