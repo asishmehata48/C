@@ -17,6 +17,7 @@ int main()
     for (int i = n; i>=1; i--)
     {
         sum = sum + i;
+        
     }
     printf("The sum is %d", sum);
     return 0;
