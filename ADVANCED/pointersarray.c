@@ -10,6 +10,5 @@ int main() {
         printf("%d ", *(ptr + i));
     }
     printf("\n");
-
     return 0;
 }
