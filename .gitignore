@@ -1,0 +1,65 @@
+# Ignore object files and binaries
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.so
+*.dylib
+*.dll
+
+# Ignore build directories
+/build/
+/bin/
+/lib/
+/dist/
+/Debug/
+/Release/
+
+# Ignore generated files
+*.lo
+*.la
+
+# Ignore temporary files
+*.log
+*.tmp
+*.temp
+*.swp
+*~
+
+# Ignore CMake build files
+CMakeFiles/
+/CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Ignore Visual Studio Code files
+.vscode/
+*.code-workspace
+
+# Ignore Visual Studio files
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.pdb
+*.ipch
+*.obj
+
+# Ignore Xcode files
+*.xcodeproj/
+*.xcworkspace/
+*.xcuserdata/
+
+# Ignore Qt Creator files
+*.pro.user
+*.qmake.stash
+
+# Ignore CLion files
+.idea/
+cmake-build-debug/
+
+# Ignore other IDEs and editors
+*.user
+*.suo
+*.DS_Store
